@@ -21,6 +21,7 @@ namespace SaintCoinach.Xiv {
         public Item StartingWeapon { get { return As<Item>("Item{StartingWeapon}"); } }
         public Item SoulCrystal { get { return As<Item>("Item{SoulCrystal}"); } }
         public byte StartingLevel {  get { return As<byte>("StartingLevel"); } }
+        public byte CityState { get { return As<byte>("CityState"); } }
 
         public ImageFile Icon {
             get {
