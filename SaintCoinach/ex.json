@@ -1297,6 +1297,10 @@
           }
         },
         {
+          "index": 4,
+          "name": "ClassId"
+        },
+        {
           "index": 9,
           "name": "Modifier{HitPoints}"
         },
