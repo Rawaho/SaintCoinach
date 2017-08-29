@@ -7585,6 +7585,10 @@
           }
         },
         {
+          "index": 8,
+          "name": "Type"
+        },
+        {
           "index": 10,
           "name": "WeatherRate"
         },

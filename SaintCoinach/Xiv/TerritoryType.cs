@@ -64,6 +64,8 @@ namespace SaintCoinach.Xiv {
         /// <value>The <see cref="PlaceName" /> of the zone the current territory is in.</value>
         public PlaceName ZonePlaceName { get { return As<PlaceName>("PlaceName{Zone}"); } }
 
+        public byte Type { get { return As<byte>("Type"); } } // maybe TerritoryIntendedUse
+
         /// <summary>
         ///     Gets the <see cref="WeatherRate" /> of the current territory.
         /// </summary>
