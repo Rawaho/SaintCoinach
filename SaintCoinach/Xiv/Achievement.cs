@@ -12,6 +12,7 @@ namespace SaintCoinach.Xiv {
         public Title Title { get { return As<Title>(); } }
         public Item Item { get { return As<Item>("Item"); } }
         public ImageFile Icon { get { return AsImage("Icon"); } }
+        public int[] Data { get { return AsArray<int>("Data"); } }
         public int Order { get { return AsInt32("Order"); } }
 
         #endregion

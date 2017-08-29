@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -305,6 +306,18 @@ namespace SaintCoinach.Xiv {
         /// <returns>The quad value of the field in <c>column</c> and <c>indices</c> of the current row.</returns>
         public Quad AsQuad(string column, params int[] indices) {
             return AsQuad(BuildColumnName(column, indices));
+        }
+
+        public T[] AsArray<T>(string column) {
+            var list = new List<T>();
+            for (int i = 0; ; i++) {
+                try {
+                    list.Add(As<T>(column, i));
+                }
+                catch {
+                    return list.ToArray();
+                }
+            }
         }
         #endregion
     }
