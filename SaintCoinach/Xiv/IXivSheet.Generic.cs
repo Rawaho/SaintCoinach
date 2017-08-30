@@ -6,6 +6,8 @@ namespace SaintCoinach.Xiv {
 
         new T this[int key] { get; }
 
+        void Preload();
+
         #endregion
     }
 }

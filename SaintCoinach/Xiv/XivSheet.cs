@@ -88,6 +88,12 @@ namespace SaintCoinach.Xiv {
 
         #region ISheet<T> Members
 
+        public void Preload() {
+            foreach (int key in _Source.Keys)
+                if (!_Rows.ContainsKey(key))
+                    _Rows.Add(key, CreateRow(_Source[key]));
+        }
+
         public T this[int key] {
             get {
                 if (_Rows.TryGetValue(key, out var row)) return row;
