@@ -6382,6 +6382,71 @@
       ]
     },
     {
+      "sheet": "RecastNavimesh",
+      "defaultColumn": "Name",
+      "definitions": [
+        {
+          "name": "Name"
+        },
+        {
+          "index": 1,
+          "name": "TileSize"
+        },
+        {
+          "index": 2,
+          "name": "CellSize"
+        },
+        {
+          "index": 3,
+          "name": "CellHeight"
+        },
+        {
+          "index": 4,
+          "name": "AgentHeight"
+        },
+        {
+          "index": 5,
+          "name": "AgentRadius"
+        },
+        {
+          "index": 6,
+          "name": "AgentMaxClimb"
+        },
+        {
+          "index": 7,
+          "name": "AgentMaxSlope"
+        },
+        {
+          "index": 9,
+          "name": "RegionMinSize"
+        },
+        {
+          "index": 10,
+          "name": "RegionMergedSize"
+        },
+        {
+          "index": 12,
+          "name": "MaxEdgeLength"
+        },
+        {
+          "index": 13,
+          "name": "MaxEdgeError"
+        },
+        {
+          "index": 14,
+          "name": "VerticiesPerPolygon"
+        },
+        {
+          "index": 15,
+          "name": "SampleDistance"
+        },
+        {
+          "index": 16,
+          "name": "MaxSampleError"
+        }
+      ]
+    },
+    {
       "sheet": "Recipe",
       "defaultColumn": "Item{Result}",
       "definitions": [
